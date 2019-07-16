@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.NetUtils", "AWS.NetUtils\AWS.NetUtils.csproj", "{0D73F5E4-049B-482B-9F24-EC6277AFDDCE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.NetUtilsCore", "AWS.NetUtilsCore\AWS.NetUtilsCore.csproj", "{9DF134AE-013D-4729-AC70-002E57929806}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D73F5E4-049B-482B-9F24-EC6277AFDDCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D73F5E4-049B-482B-9F24-EC6277AFDDCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D73F5E4-049B-482B-9F24-EC6277AFDDCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D73F5E4-049B-482B-9F24-EC6277AFDDCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DF134AE-013D-4729-AC70-002E57929806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DF134AE-013D-4729-AC70-002E57929806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DF134AE-013D-4729-AC70-002E57929806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DF134AE-013D-4729-AC70-002E57929806}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B42EE0BB-58D7-4DA8-881B-ADE596173304}
+	EndGlobalSection
+EndGlobal

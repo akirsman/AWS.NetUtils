@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\AWS.NetUtils\CommandLineArguments.cs" Link="CommandLineArguments.cs" />
+    <Compile Include="..\AWS.NetUtils\SNSHelper.cs" Link="SNSHelper.cs" />
+    <Compile Include="..\AWS.NetUtils\SQSHelper.cs" Link="SQSHelper.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.SimpleNotificationService" Version="3.3.101.36" />
+    <PackageReference Include="AWSSDK.SQS" Version="3.3.100.47" />
+  </ItemGroup>
+
+</Project>
